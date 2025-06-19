@@ -1,0 +1,38 @@
+html{
+    background-color:beige;
+}
+.base{
+    background-color: #0D5EAF ;
+    height: 44.44px;
+    width: 600px;
+}
+.white{
+    background-color: white;
+    height: 44.44px;
+    width: 600px;
+}
+.inner{
+    background-color: #0D5EAF;
+    height: 222.22px;
+    width: 222.22px;
+    position: fixed;
+    z-index: 1;
+}
+.inline1{
+    background-color: white;
+    height: 222.22px;
+    width: 44.44px;
+    z-index: 2;
+    position: fixed;
+    left: 95px;
+}
+.inline2{
+    background-color: white;
+    height: 44.44px;
+    width: 222.22px;
+    position: fixed;
+    top: 95px;
+    z-index: 2;
+}
+
+
